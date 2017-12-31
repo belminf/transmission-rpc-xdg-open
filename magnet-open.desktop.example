@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Magnet RPC open
+Type=Application
+Comment=Open a magnet link with Transmission RPC
+Exec=env TR_HOST=192.168.1.100:9091 TR_PASS="af(fwa90#xa1" TR_DL_DIR=/mnt/Backups/Torrents /usr/local/bin/magnet-open.sh %U
+MimeType=x-scheme-handler/magnet;
